@@ -10,6 +10,7 @@
 		2D9D84E9223E29B800F5729E /* SwiftMenuPages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9D84DF223E29B800F5729E /* SwiftMenuPages.framework */; };
 		2D9D84EE223E29B800F5729E /* SwiftMenuPagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D84ED223E29B800F5729E /* SwiftMenuPagesTests.swift */; };
 		2D9D84F0223E29B800F5729E /* SwiftMenuPages.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9D84E2223E29B800F5729E /* SwiftMenuPages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D9D84FA223E2F3000F5729E /* SwiftMenuPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9D84F9223E2F3000F5729E /* SwiftMenuPagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2D9D84E8223E29B800F5729E /* SwiftMenuPagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMenuPagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9D84ED223E29B800F5729E /* SwiftMenuPagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMenuPagesTests.swift; sourceTree = "<group>"; };
 		2D9D84EF223E29B800F5729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9D84F9223E2F3000F5729E /* SwiftMenuPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMenuPagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		2D9D84D5223E29B800F5729E = {
 			isa = PBXGroup;
 			children = (
+				2D9D84F9223E2F3000F5729E /* SwiftMenuPagesViewController.swift */,
 				2D9D84E1223E29B800F5729E /* SwiftMenuPages */,
 				2D9D84EC223E29B800F5729E /* SwiftMenuPagesTests */,
 				2D9D84E0223E29B800F5729E /* Products */,
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					2D9D84DE223E29B800F5729E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					2D9D84E7223E29B800F5729E = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9D84FA223E2F3000F5729E /* SwiftMenuPagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		2D9D84F4223E29B800F5729E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -359,6 +365,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +374,7 @@
 		2D9D84F5223E29B800F5729E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
@@ -393,6 +401,7 @@
 		2D9D84F7223E29B800F5729E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB2RJ989JX;
 				INFOPLIST_FILE = SwiftMenuPagesTests/Info.plist;
@@ -411,6 +420,7 @@
 		2D9D84F8223E29B800F5729E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FB2RJ989JX;
 				INFOPLIST_FILE = SwiftMenuPagesTests/Info.plist;
