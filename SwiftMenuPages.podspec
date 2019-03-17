@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SwiftMenuPages"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of SwiftMenuPages."
+  spec.summary      = "a simple pageViewController in Swift "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = {:type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "10.0"
+   spec.ios.deployment_target = "10.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
