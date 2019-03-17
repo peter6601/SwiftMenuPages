@@ -91,10 +91,10 @@ This CocoaPods library helps you build pageViewController faster.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "SwiftMenuPages", "SwiftMenuPages/**/*.{h,m}"
+  spec.exclude_files = "SwiftMenuPages/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "SwiftMenuPages/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
